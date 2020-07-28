@@ -1,5 +1,6 @@
-function createTitle() {
-  
+function createTitle(title) {
+  this.title = title;
+  return "The " + title;
 }
 
 module.exports = {
