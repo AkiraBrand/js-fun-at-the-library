@@ -12,10 +12,14 @@ function buildMainCharacter(name, age, pronouns) {
   return character;
 }
 
+function saveReview(review, reviews = []){
+  reviews.push(review);
+}
+
 module.exports = {
   createTitle: createTitle,
   buildMainCharacter: buildMainCharacter,
-  // saveReview: saveReview,
+  saveReview: saveReview
   // calculatePageCount: calculatePageCount,
   // writeBook: writeBook,
   // editBook: editBook
